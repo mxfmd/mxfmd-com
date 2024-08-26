@@ -42,7 +42,7 @@ a {
   font: var(--links);
 }
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 html,
@@ -53,7 +53,6 @@ section {
 
 body {
   font-family: var(--ff);
-  max-width: 1200px;
   margin: auto;
   background-color: var(--colorprimary);
   color: var(--colorsecondary);
@@ -61,6 +60,7 @@ body {
 
 section {
   width: 90vw;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: center;
