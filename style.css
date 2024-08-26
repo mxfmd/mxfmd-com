@@ -41,8 +41,10 @@ a {
   text-decoration: none;
   font: var(--links);
 }
+
+/* Prevent page scrolling */
 html {
-  /* scroll-behavior: smooth; */
+  overflow: hidden;
 }
 
 html,
@@ -65,6 +67,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 section div {
@@ -92,4 +95,5 @@ section div {
 #primary-links {
   margin-top: 20px;
   display: flex;
+  justify-content: center;
 }
